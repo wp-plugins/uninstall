@@ -2,15 +2,17 @@
 Contributors:
 Donate link:
 Tags: Uninstall, clean
-Requires at least: 3.0.1
-Tested up to: 3.4
+Requires at least: 3.0.0
+Tested up to: 4.0.1
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Removes all Wordpress files and the associated database.
+Flush away Wordpress files and the associated database.
 
 == Description ==
+
+Finally you can do what you always wanted, flush out Wordpress!
 
 Removes all Wordpress files and the associated database.
 Useful for removing a local or remote copy without having to hazzle trough
@@ -18,10 +20,9 @@ file explore, ftp, sql client..
 
 WARNING: The plugin deletes everything from the ABSPATH (the root of the wordpress directory) including the containing folder.
 
-- Misc
 
-Added "ARE YOU SURE" alert and moved uninstall into management.
-A few notes about the sections above:
+
+Thanks to http://stackoverflow.com/users/4251625/mario for the fantastic banner!
 
 
 == Installation ==
@@ -29,19 +30,25 @@ A few notes about the sections above:
 1. Install plugin and activate trough the 'Plugins' menu
 2. Click the new "Uninstall" in the Tools menu
 3. Click uninstall and OK to confirm.
+4. Go profit !
 
 Wait for the process to finished, if all went well, you will get a
-alert message that Wordpress is removed.
+alert message that Wordpress is removed. Great job! This was the famous 1 min. uninstall... wow.
 
 == Frequently Asked Questions ==
 
 = Is there any need for this plugin?  =
 
-Yes lots of usecases, for example many people often want to make a fast test in wordpress and swiftly remove wp afterwards.
+Yes.
 
 == Screenshots ==
 
 == Changelog ==
+
+= 1.1 =
+* bumped tested up to
+* fixed readme abit
+* added awesome banner by
 
 = 1.0 =
 * Initial commit. Start uninstalling!
