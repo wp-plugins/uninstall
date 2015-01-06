@@ -3,7 +3,7 @@ Contributors:
 Donate link:
 Tags: Uninstall, clean
 Requires at least: 3.0.0
-Tested up to: 4.0.1
+Tested up to: 4.1.0
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -18,11 +18,12 @@ Removes all Wordpress files and the associated database.
 Useful for removing a local or remote copy without having to hazzle trough
 file explore, ftp, sql client..
 
-WARNING: The plugin deletes everything from the ABSPATH (the root of the wordpress directory) including the containing folder.
+WARNINGS:
+1. The plugin deletes everything from the ABSPATH (the root of the wordpress directory) including the containing folder.
+2. Never activate this unless your are ready to NUKE your wordpress.
 
 
-
-Thanks to http://stackoverflow.com/users/4251625/mario for the fantastic banner!
+Remember to upvote and click "Works" so everyone can feel safe uninstalling..
 
 
 == Installation ==
@@ -45,6 +46,9 @@ Yes.
 
 == Changelog ==
 
+= 1.2
+* Removed CSRF vuln. (https://wordpress.org/support/topic/csrf-vulnerability-1)
+
 = 1.1 =
 * bumped tested up to
 * fixed readme abit
@@ -57,3 +61,4 @@ Yes.
 == Upgrade Notice ==
 
 == Arbitrary section ==
+Thanks to http://stackoverflow.com/users/4251625/mario for the fantastic banner!
