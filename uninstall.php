@@ -4,7 +4,7 @@
  * Plugin URI: http://wordpress.org/plugins/uninstall/
  * Description: Remove wordpress file and database fast
  * Author: Ronni Skansing
- * Version: 1.1
+ * Version: 1.2
  * Author URI: https://github.com/RonnieSkansing
  * License: GPL2
 **/
